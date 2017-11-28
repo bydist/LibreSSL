@@ -1,5 +1,5 @@
 set(package LibreSSL)
-set(version 2.5.5)
+set(version 2.6.3)
 
 byd__package__info(${package}
     MAINTAINER_NAME "David Callu"
@@ -9,6 +9,6 @@ byd__package__info(${package}
     )
 
 byd__package__download_info(${package}
-    URL "http://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-2.5.5.tar.gz"
-    URL_HASH SHA1=36511c98fe450bbb50da8c8a3d4eba2cc7d0f83c
+    URL "https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-2.6.3.tar.gz"
+    URL_HASH SHA1=88212074d9f320773ebf32d1e8778042f0edc158
     )
